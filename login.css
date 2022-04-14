@@ -1,0 +1,169 @@
+/*This is the css for the whole body*/
+body{
+    background: #1c1c1e;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar{
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(#414345,#1c1c1e);
+    transform: translate(14rem, 2rem);
+    width: 71.2%;
+    height: 80px;
+    border: 0;
+    border-radius: 0.8rem;
+}
+.home-icon{
+    height: 50%;
+    width: auto;
+    transform: translate(1rem, 1.3rem);
+}
+.contact-us{
+    color: #c7c7cc;
+    font-family: rubik;
+    transform: translate(6rem,-1.7rem);
+}
+a:link{
+    text-decoration: none;
+}
+
+/*This is the css for the main logo, i.e., SOLLIANCE*/
+.head-name{
+    margin: auto;
+    /*Used for aligning the vertically*/
+    transform: translateY(12rem);
+    text-align: justify;
+    /*Used for padding from the left and right*/
+    width: 70%;
+    font-family: aquire light;
+    /*rem is the good, professionals use this, so use rem instead of px*/
+    font-size: 5rem;
+    /*To get that gradient look in the logo*/
+    /*Defined the gradient colors in a solid background*/
+    background: -webkit-linear-gradient(#40c8e0, #66d4cf);
+    -webkit-background-clip: text;/*text inherited the solid background*/
+            background-clip: text;/*for removing the warning, not necessary*/
+    -webkit-text-fill-color: transparent;/*to fill the text with desired gradient colors*/
+}
+.slogan{
+    margin: auto;
+    text-align: justify;
+    width: 70%;
+    transform: translateY(13rem);
+    font-family: cutive mono;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#c7c7cc, #f2f2f7);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.login-card{
+    height: 460px;
+    width: 360;
+    background: #141414;
+    transform: translate(60rem, -1rem);
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+    transition: ease-in-out 0.25s;
+}
+.login-card:hover{
+    box-shadow: 0.4rem 0.4rem 0.8rem;
+}
+
+.login-head{
+    position: absolute;
+    font-size: 34px;
+    color: white;
+    /*background: -webkit-linear-gradient(#40c8e0, #66d4cf);
+    -webkit-background-clip: text;
+                  background-clip: text;
+                 -webkit-text-fill-color: transparent;*/
+    font-family: source sans pro;
+    transform: translate(15rem, 20px);
+}
+
+.uname-title{
+    font-size: 1.2rem;
+    font-family: source sans pro;
+    font-weight: 200;
+    color: whitesmoke;
+    text-align: justify;
+    transform: translate(-11rem, 0rem);
+}
+.usrnm{
+    display: inline-block;
+    -webkit-transform: translate(-13rem,-2rem);
+            transform: translate(-13rem,-2rem);
+            width: 295px;
+            height: 40px;
+            box-sizing: border-box;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 1px solid #8e8e93;
+            outline: 0px;
+            background-color: #141414;
+            font-family: source sans pro;
+    
+}
+
+.pswd-title{
+    font-size: 1.2rem;
+    font-family: source sans pro;
+    font-weight: 200;
+    color: whitesmoke;
+    text-align: justify;
+    transform: translate(-13rem, -1.5rem);
+}
+.pswd{
+    display: inline-block;
+    -webkit-transform: translate(-13rem,-3.2rem);
+            transform: translate(-13rem,-3.2rem);
+            width: 295px;
+            height: 40px;
+            box-sizing: border-box;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 1px solid #8e8e93;
+            outline: 0px;
+            background-color: #141414;
+            font-family: source sans pro;
+}
+
+.login-btn{
+    font-family: source sans pro;
+    font-size: 20px;
+    display: inline-block;
+    -webkit-transform:translate(-13rem, -1.5rem);
+            transform:translate(-13rem, -1.5rem);
+            width: 128px;
+            height: 40px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+            outline: 0px;
+            border: 0px;
+            background-color: #3a3a3c;
+}
+input, select, textarea {
+    color: white;
+}
+.login-btn:hover{
+    background: -webkit-linear-gradient(#40c8e0, #66d4cf);
+}
+.signup-btn{
+    font-family: source sans pro;
+    font-size: 20px;
+    display: inline-block;
+    width: 128px;
+    height: 40px;
+    -webkit-transform: translate(-11rem, -1.5rem);
+            transform: translate(-11rem, -1.5rem);
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+            outline: 0px;
+            border: 0px;
+            background-color: #3a3a3c;
+}
+.signup-btn:hover{
+    background: -webkit-linear-gradient(#40c8e0, #66d4cf);
+}

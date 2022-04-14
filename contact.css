@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #1c1c1e;
+}
+.top-bar{
+    box-sizing: border-box;
+    transform: translate(14rem, 2rem);
+    width: 71.2%;
+    height: 80px;
+    border: 0;
+    border-radius: 0.8rem;
+}
+.home-icon{
+    height: 50%;
+    width: auto;
+    transform: translate(1rem, 1.3rem);
+}
+/*h1{
+    position: absolute;
+    font-family: quicksand;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#40c8e0, #66d4cf);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translate(43rem, 3rem);
+}*/
+.dev-info{
+    position: absolute;
+    height: 30rem;
+    width: 68rem;
+    transform: translate(14rem,8rem);
+    box-sizing: border-box;
+    background:;
+    border-radius: 12px;
+    transition: ease-in-out 0.25s;
+}
+.dev-info:hover{
+    box-shadow: 0.4rem 0.4rem 0.8rem;
+    color: white;
+}
+img{
+    height: 60%;
+    transform: translate(5rem, 5rem);
+}
+.name-title1{
+    position: relative;
+    font-family: quicksand;
+    font-size: 18px;
+    transform: translate(32rem, -12rem);
+}
+.name1{
+    position: relative;
+    transform: translate(42rem, -15.2rem);
+    font-family: quicksand;
+    font-size: 18px;
+}
+.email1{
+    position: relative;
+    transform: translate(32rem, -15rem);
+    font-family: quicksand;
+    font-size: 18px;
+}
+.emailadd{
+    position: relative;
+    transform: translate(42rem, -18.6rem);
+    font-family: quicksand;
+    font-size: 18px;
+}
+
+.name-title2{
+    position: relative;
+    font-family: quicksand;
+    font-size: 18px;
+    transform: translate(32rem, -17rem);
+}
+.name2{
+    position: relative;
+    transform: translate(42rem, -20rem);
+    font-family: quicksand;
+    font-size: 18px;
+}
+.email2{
+    position: relative;
+    transform: translate(32rem, -20rem);
+    font-family: quicksand;
+    font-size: 18px;
+}
+.emailadd2{
+    position: relative;
+    transform: translate(42rem, -23.4rem);
+    font-family: quicksand;
+    font-size: 18px;
+}
